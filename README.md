@@ -2,7 +2,7 @@
 mymuduo是基于Reactor模式的网络库，遵循one loop per thread的思想，核心是个事件循环EventLoop，用于响应计时器和IO事件。采用基于对象的设计风格，事件回调接口多以function + bind表达。
 ## 运行方式
 直接运行 `./autobuild.sh`脚本即可编译好对应的动态库。
-`example`文件夹下可以通过make进行测试。
+`example`文件夹下可以通过make进行测试,查看运行情况。
 ## tools
 tools目录下存放了一些工具类
 ### noncopyable类
